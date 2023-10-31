@@ -325,6 +325,7 @@ for divisa, symbol in divisas.items():
     print()
 
 
+# PUNTO 12 *********************************************************************************************************************************
 # ingresar nombre, edad, direccion y telefono del usuario en un diccionario y luego mostrar los datos
 name = input("Ingrese su nombre: ")
 age = input("Ingrese su edad: ")
@@ -344,10 +345,10 @@ print("La direccion es:",userData["Dirección"])
 print("El telefono es:",userData["Telefono"])
 
 
+# PUNTO 13 *********************************************************************************************************************************
 # Escribir un programa que guarde en un diccionario los precios de las frutas de la tabla,
 # pregunte al usuario por una fruta, un número de kilos y muestre por pantalla el precio de ese número de kilos de fruta.
-# Si la fruta no está en el diccionario debe mostrar un mensaje informando de ello.
-print("----------13----------")
+# Si la fruta no está en el diccionario debe mostrar un mensaje informando de ello
 fruits = {"Manzana": 80, "Naranja": 100, "Banana": 120, "Durazno": 120}
 
 userFruit = input("¿Qué fruta le gustaría comprar?: ").title()
